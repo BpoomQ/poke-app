@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { LikedProvider } from './components/liked-context/LikedContext';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LikedProvider>
+      <App />
+    </LikedProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
