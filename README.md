@@ -1,6 +1,6 @@
 # PokeApp
 
-PokeApp es la prueba de Front-End de Keo, donde se puede visualizar en la primera vista los datos compilados de los pokemones del [PokeApi](https://pokeapi.co/) y junto a la lista se podrán ver más detalles del pokémon seleccionado.
+PokeApp es la prueba de Front-End de Keo, donde se puede visualizar en la primera vista los datos compilados de los pokemones, obtenidos del [PokeApi](https://pokeapi.co/) y junto a la lista se podrán ver más detalles del pokémon seleccionado. Por otro lado, el usuario cuenta con la herramienta de guardar en la sesión los pokémon deseados.
 
 ## Pre-requisitos
 
