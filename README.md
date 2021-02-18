@@ -8,7 +8,7 @@ Antes de ejecutar el programa se debe crear un archivo con las variables de ambi
 
 ## Scripts disponibles
 
-En el directorio del proyecto para ejecutar el proyecto de manera local debe correr el siguiente comando
+En el directorio del proyecto, para ejecutar de manera local debe correr el siguiente comando
 
 ### `yarn start`
 
