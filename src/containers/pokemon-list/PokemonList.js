@@ -21,6 +21,7 @@ const PokemonList = () => {
   const [error, setError] = useState();
 
   useEffect(() => {
+    // Este metodo consulta la lista de pokemones en el API cada vez que el offset (variable necesaria para el paginado) cambia
     const getPokeList = async () => {
       try {
         setIsLoading(true);
