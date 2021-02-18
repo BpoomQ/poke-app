@@ -5,7 +5,7 @@ import NavigationBar from './components/navigation-bar/NavigationBar';
 
 const PokemonList = lazy(() => import('./containers/pokemon-list/PokemonList'));
 const LikedPokemons = lazy(() =>
-  import('./containers/liked-pokemons/LikedPokemons')
+  import('./containers/liked-pokemon/LikedPokemon')
 );
 
 function App() {

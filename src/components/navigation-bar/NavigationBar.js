@@ -15,8 +15,6 @@ const NavigationBar = () => {
   const classes = useStyles();
   const history = useHistory();
 
-  console.log(history);
-
   return (
     <>
       <AppBar position="fixed">
@@ -29,7 +27,7 @@ const NavigationBar = () => {
             PokeApp
           </Typography>
           <Button onClick={() => history.push('/pokemons')} color="inherit">
-            Pokemones Guardados
+            Saved Pokémon
           </Button>
         </Toolbar>
       </AppBar>
