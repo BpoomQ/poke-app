@@ -20,6 +20,7 @@ const PokemonDetail = ({ pokemonURL }) => {
   const [isLoading, setIsLoading] = useState();
 
   useEffect(() => {
+    // Método que consulta los detalles de un pokémon
     if (pokemonURL) {
       const getPokemonInfo = async () => {
         try {
